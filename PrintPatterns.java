@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrintPatterns 
+class PrintPatterns 
 {
     public static void main(String[] args) 
     {
@@ -28,7 +28,7 @@ public class PrintPatterns
         }
         s.close();
     }
-    private static void Triangle(int rows) 
+    static void Triangle(int rows) 
     {
         for (int i=1;i<=rows;i++) 
         {
@@ -39,7 +39,7 @@ public class PrintPatterns
             System.out.println();
         }
     }
-    private static void Diamond(int rows) 
+    static void Diamond(int rows) 
     {
         for (int i=1;i<=rows;i++) 
         {
@@ -66,7 +66,7 @@ public class PrintPatterns
             System.out.println();
         }
     }
-    private static void Pyramid(int rows) 
+    static void Pyramid(int rows) 
     {
         for (int i=1;i<=rows;i++) 
         {
